@@ -5,13 +5,13 @@ using namespace std;
 struct MyStackA {
     int *arr;
     int cap;
-    int top;
+    int top; 
 
     MyStackA(int c) {
         cap = c;
         arr = new int[cap];
-        top = -1;
-    }
+        top = -1
+    };
 
     void push(int x) {
         if (top >= cap) {
